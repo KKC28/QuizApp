@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">MT19124_Quaestio</string>
+    <string name="start">START</string>
+    <string name="a1">a1</string>
+    <string name="q1">1. Android is developed by?</string>
+    <string name="q11">Android INC</string>
+    <string name="q12">Google</string>
+    <string name="q13">Microsoft</string>
+    <string name="q14">Apple</string>
+    <string name="q2">2. Android is based on which kernel?</string>
+    <string name="q21">Linux</string>
+    <string name="q22">Windows</string>
+    <string name="q23">Mac</string>
+    <string name="q24">RedHat</string>
+    <string name="q3">3. In which directory XML file layout is stored?</string>
+    <string name="q31">/src</string>
+    <string name="q32">/assets</string>
+    <string name="q33">/res/values</string>
+    <string name="q34">/res/layout</string>
+    <string name="q4">4. ADB stands for?</string>
+    <string name="q41">Android Debug Bridge</string>
+    <string name="q42">Android Drive Bridge</string>
+    <string name="q43">Android Delete Bridge</string>
+    <string name="q44">Android Destroy Bridge</string>
+    <string name="q5">5. How many orientations does android support?</string>
+    <string name="q51">4</string>
+    <string name="q52">10</string>
+    <string name="q53">2</string>
+    <string name="q54">None of these</string>
+    <string name="q6">6. How many levels of securities are there in android?</string>
+    <string name="q61">App level security and kernel level security</string>
+    <string name="q62">Android level security</string>
+    <string name="q63">Java level security</string>
+    <string name="q64">None of these</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="username">Please enter your name</string>
+    <string name="welcome">Welcome</string>
+    <string name="ans1">Android INC</string>
+    <string name="ans2">Linux</string>
+    <string name="ans3">/res/layout</string>
+    <string name="ans4">Android Debug Bridge</string>
+    <string name="ans5">4</string>
+    <string name="ans6">App level security and kernel level security</string>
+    <string name="good">GOOD!!</string>
+    <string name="awesome">AWESOME!!</string>
+    <string name="excellent">EXCELLENT!!</string>
+    <string name="check">Check Answers</string>
+    <string name="yourans">Your Answer:</string>
+    <string name="expect">Correct Answer:</string>
+    <string name="exit">EXIT</string>
+    <string name="value">Value</string>
+    <string name="value1">Value1</string>
+    <string name="name">Enter your name to proceed</string>
+    <string name="yes">YES,</string>
+    <string name="no">NO,</string>
+    <string name="left">questions left to answer</string>
+    <string name="Ans1">Ans1</string>
+    <string name="Ans2">Ans2</string>
+    <string name="Ans3">Ans3</string>
+    <string name="Ans4">Ans4</string>
+    <string name="Ans5">Ans5</string>
+    <string name="Ans6">Ans6</string>
+    <string name="mandate">Every question is mandatory!!</string>
+    <string name="record">Response Recorded</string>
+    <string name="sub">You can submit now!!</string>
+    <string name="st">state</string>
+    <string name="ex">EXIT</string>
+    <string name="better">OOPS!!!</string>
+
+
+
+
+
+</resources>

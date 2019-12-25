@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MT19124_A2"
+    android:background="@color/brown">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/maronn"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/welcome"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+
+        />
+
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/q1"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q1"
+        android:textColor="@color/maronn" />
+
+
+    <RadioGroup
+        android:id="@+id/ques1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q1"
+        >
+    <RadioButton
+        android:id="@+id/q11"
+        android:textColor="@color/darkbrown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q11"
+        android:onClick="checkRadioButton"/>
+
+    <RadioButton
+        android:id="@+id/q12"
+        android:layout_width="wrap_content"
+        android:textColor="@color/darkbrown"
+        android:layout_height="wrap_content"
+        android:text="@string/q12"
+        android:onClick="checkRadioButton"
+        />
+
+        <RadioButton
+            android:id="@+id/q13"
+            android:layout_width="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:layout_height="wrap_content"
+            android:text="@string/q13"
+            android:onClick="checkRadioButton"
+            />
+        <RadioButton
+            android:id="@+id/q14"
+            android:layout_width="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:layout_height="wrap_content"
+            android:text="@string/q14"
+            android:onClick="checkRadioButton"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/q2"
+        android:textColor="@color/maronn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="@string/q2"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/ques1"/>
+
+    <RadioGroup
+        android:id="@+id/ques2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q2">
+        <RadioButton
+            android:id="@+id/q21"
+            android:layout_width="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:layout_height="wrap_content"
+            android:text="@string/q21"
+            android:onClick="checkRadioButton"/>
+
+        <RadioButton
+            android:id="@+id/q22"
+            android:layout_width="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:layout_height="wrap_content"
+            android:text="@string/q22"
+            android:onClick="checkRadioButton"
+            />
+        <RadioButton
+            android:id="@+id/q23"
+            android:layout_width="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:layout_height="wrap_content"
+            android:text="@string/q23"
+            android:onClick="checkRadioButton"/>
+        <RadioButton
+            android:id="@+id/q24"
+            android:layout_width="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:layout_height="wrap_content"
+            android:text="@string/q24"
+            android:onClick="checkRadioButton"/>
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/q3"
+        android:textColor="@color/maronn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="@string/q3"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/ques2"/>
+
+    <RadioGroup
+        android:id="@+id/ques3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q3">
+        <RadioButton
+            android:id="@+id/q31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:text="@string/q31"
+            android:onClick="checkRadioButton"/>
+
+        <RadioButton
+            android:id="@+id/q32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:text="@string/q32"
+            android:onClick="checkRadioButton"
+            />
+        <RadioButton
+            android:id="@+id/q33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q33"
+            android:textColor="@color/darkbrown"
+            android:onClick="checkRadioButton"/>
+
+        <RadioButton
+            android:id="@+id/q34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:text="@string/q34"
+            android:onClick="checkRadioButton"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/q4"
+        android:textColor="@color/maronn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="@string/q4"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/ques3"/>
+
+    <RadioGroup
+        android:id="@+id/ques4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q4">
+        <RadioButton
+            android:id="@+id/q41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:text="@string/q41"
+            android:onClick="checkRadioButton"/>
+
+        <RadioButton
+            android:id="@+id/q42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:text="@string/q42"
+            android:onClick="checkRadioButton"
+            />
+        <RadioButton
+            android:id="@+id/q43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q43"
+            android:textColor="@color/darkbrown"
+            android:onClick="checkRadioButton"
+            />
+        <RadioButton
+            android:id="@+id/q44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q44"
+            android:textColor="@color/darkbrown"
+            android:onClick="checkRadioButton"
+            />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/q5"
+        android:textColor="@color/maronn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="@string/q5"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/ques4"/>
+
+    <RadioGroup
+        android:id="@+id/ques5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q5">
+        <RadioButton
+            android:id="@+id/q51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q51"
+            android:textColor="@color/darkbrown"
+            android:onClick="checkRadioButton"/>
+
+        <RadioButton
+            android:id="@+id/q52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q52"
+            android:textColor="@color/darkbrown"
+            android:onClick="checkRadioButton"
+            />
+        <RadioButton
+            android:id="@+id/q53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q53"
+            android:textColor="@color/darkbrown"
+            android:onClick="checkRadioButton"/>
+        <RadioButton
+            android:id="@+id/q54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q54"
+            android:textColor="@color/darkbrown"
+            android:onClick="checkRadioButton"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/q6"
+        android:textColor="@color/maronn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="@string/q6"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/ques5"/>
+
+    <RadioGroup
+        android:id="@+id/ques6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q6">
+        <RadioButton
+            android:id="@+id/q61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:text="@string/q61"
+            android:onClick="checkRadioButton"/>
+
+        <RadioButton
+            android:id="@+id/q62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:text="@string/q62"
+            android:onClick="checkRadioButton"
+            />
+        <RadioButton
+            android:id="@+id/q63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q63"
+            android:textColor="@color/darkbrown"
+            android:onClick="checkRadioButton"
+            />
+        <RadioButton
+            android:id="@+id/q64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkbrown"
+            android:text="@string/q64"
+            android:onClick="checkRadioButton"
+            />
+
+    </RadioGroup>
+
+
+
+
+
+    <Button
+        android:id="@+id/submit_a1"
+        android:layout_below="@+id/ques6"
+        android:background="@drawable/mt19124_buttondesign"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="@string/SUBMIT"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

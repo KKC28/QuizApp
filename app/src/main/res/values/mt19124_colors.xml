@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#C09003</color>
+    <color name="lightyellow">#FFBD04</color>
+    <color name="light1yellow">#FFDB75</color>
+    <color name="brown">#D2B48C</color>
+    <color name="darkbrown">#A0522D</color>
+    <color name="white">#00000000</color>
+    <color name="maronn">#800000</color>
+    <color name="mronn"></color>
+</resources>
